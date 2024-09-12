@@ -1,0 +1,6 @@
+!pip install preliz
+import preliz as pz
+import numpy as np
+import arviz as az
+import pymc as pm
+pz.Beta(alpha=24,beta=8).plot_pdf()
